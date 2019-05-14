@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Midas Jewelry</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 300px;
+    background: black;
+  }
+  #headliner1 {
+    color:white; font-size:10vh;
+  }
+  #headliner2 {
+    font-size:20px;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+}
+  .centered {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+#buttontext-selected {
+  color:white;
+}
+#buttontext-not-selected {
+  color:grey;
+}
+body{
+  background-color:black;
+}
+p{
+  color:white;
+}
+h1{
+  color:white;
+}
+h2{
+  color:white;
+}
+h3{
+  color:white;
+}
+h4{
+  color:white;
+}
+h5{
+  color:white;
+}
+#bottomtext{
+  color:black
+}
+.jumbobackground{
+  background-color: black;
+}
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center jumbobackground" class="container" style="margin-bottom:0">
+  <img src="goldbars.jpg" alt="gold bars in a pile" style="width:70%;">
+  <mark>
+  <h1 id="headliner1" class="centered"><span style="background-color: black">Midas</span></h1>
+  </mark>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html" id="buttontext-not-selected">Homepage</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="products.html" id="buttontext-selected">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cart.html">Cart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Products</h2>
+      <h5>Newest jewelry</h5>
+      <div class="fakeimg">
+        <img src="bangle.jpg" height="100%" width="110%">
+      </div>
+      <p>This fabulous bracelet is the perfect piece for any wedding or New Year's Eve. The baguette, trilliant and brilliant diamonds come together in a dazzle of a bracelet, sure to make heads turn. The total weight is 8.72ct diamonds and 47 grams of 18k white gold.</p>
+    </div>
+    <div class="col-sm-8">
+      <h5>All inquires for jewelry orders can be made through our cart page as well as on our 24/7 phone line.</h3>
+      <img src="ring.jpg" width="70%">
+      <p>The flashy 22k 1.45ct</p>
+      <p>This ring was made by artisan jewelers in Italy, and the diamonds were sourced from Zimbabwe. The center stone is a 1.05ct brilliant cut diamond. The colour is D and the quality is VVS2, meaning that it is close to flawless. </p>
+      <br>
+      <h3>All-New Necklaces</h3>
+      <h5>Our newest batch of necklaces is now available for order</h5>
+      <div class="fakeimg">
+        <img src="necklace.jpg" width="100%" height="100%" alt="Diamond and Sapphire necklace in white gold on the neck of a woman">
+      </div>
+      <p>2.25ct diamond & 4.30ct sapphire set in 18k white gold</p>
+      <p>This fabulous necklace was created by the famous s'avoir faire jeweler, Patek Philippe. His jewels have been worn by royals and state leaders alike.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p id="bottomtext">Page by Philip R. Johnsen</p>
+</div>
+
+</body>
+</html>
